@@ -2,7 +2,6 @@
 
 namespace App\Controllers;
 
-use App\Entities\Notes;
 use App\Models\NotesModel;
 use CodeIgniter\Controller;
 
@@ -60,7 +59,6 @@ class NotesEdit extends Controller
       $data['validation'] = $this->validator;
       echo view('notes/notes_edit', $data);
     }
-
   }
 
 }

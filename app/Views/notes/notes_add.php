@@ -30,6 +30,7 @@
                 <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
             <?php endif;?>
             <form action="/notesadd/save" method="post">
+                <?= csrf_field() ?>
                 <div class="mb-3">
                     <label for="InputForTitle" class="form-label">Title</label>
                     <input type="text" name="title" class="form-control" id="InputForTitle" value="<?= set_value('title') ?>">

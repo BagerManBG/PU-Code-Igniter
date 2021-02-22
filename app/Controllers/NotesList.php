@@ -7,19 +7,20 @@ use CodeIgniter\Controller;
 
 class NotesList extends Controller
 {
-    public function index()
-    {
-        $session = session();
-        $user = $session->get('user');
+  public function index()
+  {
+    $session = session();
+    $user = $session->get('user');
 
-        $model = new NotesModel();
-        $notes = $model->load_all($user['uid']);
+    $model = new NotesModel();
+    $notes = $model->load_all($user['uid']);
 
-        $data = [
-          'user' => $user,
-          'notes' => $notes,
-        ];
+    $data = [
+      'user' => $user,
+      'notes' => $notes,
+    ];
 
-        return view('notes/notes_list', $data);
-    }
+    return view('notes/notes_list', $data);
+  }
+
 }

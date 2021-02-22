@@ -43,7 +43,6 @@ class NotesAdd extends Controller {
       $data['validation'] = $this->validator;
       echo view('notes/notes_add', $data);
     }
-
   }
 
 }
