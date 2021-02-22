@@ -26,7 +26,7 @@
     <div class="row justify-content-md-center">
 
         <div class="col-6">
-            <h1>Create note</h1>
+            <h1>Edit note</h1>
           <?php if (isset($validation)): ?>
               <div class="alert alert-danger"><?= $validation->listErrors() ?></div>
           <?php endif; ?>
@@ -42,7 +42,7 @@
                     <textarea name="content" class="form-control" id="InputForContent" cols="30"
                               rows="10"><?= $note->content ?></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Create</button>
+                <button type="submit" class="btn btn-primary">Update</button>
             </form>
         </div>
     </div>
