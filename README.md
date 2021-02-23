@@ -11,3 +11,7 @@
 ![env](https://i.ibb.co/XXh03jy/env.png)  
   
 След като направите тези промени, можете да стартирате сайта като от конзола изпълните командата **php spark serve** и можете да отворите сайта на адрес **http://localhost:8080**.  
+
+## Техническа спецификация
+
+[https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniterSpecifications.pdf](https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniterSpecifications.pdf)
