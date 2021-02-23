@@ -15,3 +15,7 @@
 ## Техническа спецификация
 
 [https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniterSpecifications.pdf](https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniterSpecifications.pdf)
+
+## Презентация
+
+[https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniter.pptx](https://raw.githubusercontent.com/BagerManBG/PU-Code-Igniter/master/CodeIgniter.pptx)
